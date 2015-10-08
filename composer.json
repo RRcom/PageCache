@@ -1,0 +1,25 @@
+{
+    "name": "rrcom/zf2-page-cache",
+    "description": "Zend Framework 2 module for caching page to speed up loading time and minimize resources usage of MVC application.",
+    "keywords": ["zf2", "zend", "framework", "module", "cache"],
+    "type": "library",
+    "homepage": "https://github.com/RRcom/PageCache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Restituto P. Rizal",
+            "homepage": "https://github.com/RRcom"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PageCache\\": "src/PageCache/"
+        }
+    }
+}
